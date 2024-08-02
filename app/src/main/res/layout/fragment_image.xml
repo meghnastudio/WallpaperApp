@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context=".fragment.ImageFragment"
+    android:background="@color/white">
+
+
+
+
+        <ImageView
+            android:src="@mipmap/ic_launcher"
+            android:id="@+id/photo_view"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"/>
+
+        <ProgressBar
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:id="@+id/progress"
+            />
+
+
+
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/_50sdp"
+            android:layout_alignParentBottom="true"
+            android:background="@drawable/action_bg"
+            >
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_centerInParent="true"
+                    android:gravity="center"
+                        >
+
+
+                        <ImageView
+                            android:layout_marginEnd="@dimen/_10sdp"
+                            android:id="@+id/btnShare"
+                            android:clickable="true"
+                            android:foreground="?selectableItemBackgroundBorderless"
+                            android:layout_width="@dimen/_28sdp"
+                            android:layout_height="@dimen/_28sdp"
+                            android:src="@drawable/ic_share"
+                            android:background="@drawable/btn_round_bg"
+                            app:tint="@color/black"
+                            android:padding="@dimen/_6sdp"
+                            android:layout_marginHorizontal="@dimen/_5sdp"
+                            />
+
+
+                        <ImageView
+                            android:id="@+id/fav"
+                            android:background="@drawable/btn_round_bg"
+                            android:layout_marginEnd="@dimen/_10sdp"
+                            android:layout_width="@dimen/_28sdp"
+                            android:layout_height="@dimen/_28sdp"
+                            android:src="@drawable/ic_like"
+                            android:clickable="true"
+                            android:focusable="true"
+                            app:tint="@color/black"
+                            android:foreground="?attr/selectableItemBackgroundBorderless"
+                            android:padding="@dimen/_4sdp"
+                            />
+
+                        <ImageView
+                            android:id="@+id/save"
+                            android:background="@drawable/btn_round_bg"
+                            android:layout_marginEnd="@dimen/_10sdp"
+                            android:layout_width="@dimen/_28sdp"
+                            android:layout_height="@dimen/_28sdp"
+                            android:src="@drawable/ic_save"
+                            android:clickable="true"
+                            android:focusable="true"
+                            app:tint="@color/black"
+                            android:foreground="?attr/selectableItemBackgroundBorderless"
+                            android:padding="@dimen/_4sdp"
+                            />
+
+
+
+
+                </LinearLayout>
+
+
+
+        </RelativeLayout>
+
+
+
+</RelativeLayout>

@@ -1,0 +1,22 @@
+<resources>
+    <string name="app_name">Wallpaper Apps</string>
+
+
+
+    <bool name="ADS_ON">true</bool>
+    <integer name="AD_INTERVAL">3</integer>
+    <string name="INTERSTITIAL_ID">ca-app-pub-3940256099942544/10331737120</string>
+    <string name="BANNER_ID">ca-app-pub-3940256099942544/63009781110</string>
+    <string name="APP_ID">ca-app-pub-3940256099942544~3347511713</string>
+    <string name="Onesignal_app_ID">45cc8a7a-8181-456a-b7c3-e55f2b1c787c</string>
+
+
+    <string name="FACEBOOK_LINK">https://www.facebook.com/mukutOP</string>
+    <string name="ENTER_YOUR_EMAIL_HARE">Mobarok.LLC@outlook.com</string>
+    <string name="APP_SHARE_SMS">Hey check out my app at</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="APP_OPEN_ID">ca-app-pub-3940256099942544/92573959210</string>
+    <string name="PRIVACY_POLICY">https://google.com</string>
+
+</resources>

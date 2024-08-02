@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:showIn="navigation_view">
+
+
+
+    <item
+        android:icon="@drawable/ic_liked"
+        android:id="@+id/nev_fav"
+        android:title="Favorite Wallpaper" />
+
+
+    <item
+        android:icon="@drawable/ic_sound"
+        android:id="@+id/menu_switch"
+        app:actionLayout="@layout/switch_layout"
+        app:showAsAction="always"
+        android:title="Sound" />
+
+
+
+    <item android:title="Social Media">
+
+        <menu>
+            <group android:checkableBehavior="single">
+                <item
+                    android:icon="@drawable/ic_facebook"
+                    android:id="@+id/nav_facebook"
+                    android:title="Follow me on Facebook" />
+                <item
+                    android:icon="@drawable/ic_mail"
+                    android:id="@+id/mail"
+                    android:title="Contact Me On Email" />
+
+                <item
+                    android:icon="@drawable/ic_share"
+                    android:id="@+id/save"
+                    android:title="Share With Your Friends" />
+
+                <item
+                    android:icon="@drawable/ic_rate"
+                    android:id="@+id/retus"
+                    android:title="Rate Us" />
+
+                <item
+                    android:icon="@drawable/ic_policy"
+                    android:id="@+id/policy"
+                    android:title="Privacy Policy" />
+
+            </group>
+        </menu>
+    </item>
+</menu>
